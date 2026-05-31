@@ -52,7 +52,7 @@ def main():
         videos = load_data()
         print("\n")
         print("*"*50)
-        print("\n Youtube Manager | chhose an option ")
+        print("\n Youtube Manager | choose an option ")
         print("1. List all youtube videos: ")
         print("2. Add a youtube video: ")
         print("3. Update a youtube video details: ")

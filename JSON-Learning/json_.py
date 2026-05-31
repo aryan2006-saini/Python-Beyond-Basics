@@ -15,3 +15,6 @@ data = {
 json_string = json.dumps(data)
 # the result is a JSON string:
 print(json_string)
+
+## Use json.load() to read json.
+## Use json.dump() to write json.

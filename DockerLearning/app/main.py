@@ -10,7 +10,9 @@ async def root():
 
 @app.get("/items/{item_id}")
 async def read_item(item_id:int, q:Optional[str]=None):
+    # items/4?q="Hello"
     return {"item_id":item_id, "q": q}
+
 
 if __name__=="__main__":
     uvicorn.run(app, port=8000, host="0.0.0.0")

@@ -1,0 +1,7 @@
+2026-08-06 20:22:09,452:__main__:Tried to devide by 0
+2026-08-06 20:23:25,813:__main__:Tried to devide by 0
+Traceback (most recent call last):
+  File "Python_Beyond_Basics\Python-Logging\log-sample.py", line 54, in divide
+    result = x/y
+             ~^~
+ZeroDivisionError: division by zero
